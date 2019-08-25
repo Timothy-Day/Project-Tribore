@@ -1,0 +1,12 @@
+,0
+0,OverallQual
+1,YearBuilt
+2,YearRemodAdd
+3,TotalBsmtSF
+4,FullBath
+5,GarageCars
+6,Nbhd_Num
+7,ExtQual_Num
+8,BsmtQual_Num
+9,KQual_Num
+10,GrLivArea_Log
