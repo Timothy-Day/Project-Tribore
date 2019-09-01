@@ -460,7 +460,7 @@ influencePlot(forward.1_influen)
 model.empty = lm(SalePrice ~ 1, data = housing_new2)
 model.full = lm(SalePrice ~ ., data = housing_new2)
 scope = list(lower = formula(model.empty), upper = formula(model.full))
-forwardAIC = step(model.empty, scope, direction = "forward", k = log(50))
+forwardAIC = step(model.empty, scope, direction = "forward", k = log(1460))
 
 
 forward.1 = lm(SalePrice ~ OverallQual + GrLivArea + Neighborhood + TotalBsmtSF + 
